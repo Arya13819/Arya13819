@@ -16,23 +16,13 @@
 
 ## 🚀 Featured projects
 
-### 👁️ [AttendanceAI: face recognition attendance system](https://github.com/Arya13819/face-recognition-system)
-[![Live demo](https://img.shields.io/badge/▶%20Live%20demo-try%20it%20on%20yourself-38a169?style=flat-square)](https://face-recognition-system-0z08.onrender.com/demo)
-[![tests](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml/badge.svg)](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml)
+| Project | What it does | Highlights | Stack | Links |
+|---|---|---|---|---|
+| 👁️ **AttendanceAI** | Face recognition attendance system: webcam check-in, multi-face matching, late rules, leave management, PDF/Excel reports | Enroll your own face in the live demo · automated tests + CI | Flask · dlib · SQLAlchemy · pytest | [▶ Demo](https://face-recognition-system-0z08.onrender.com/demo) · [Code](https://github.com/Arya13819/face-recognition-system) |
+| 💰 **K2: Kharcha Khabar** | Personal finance app: budgets, recurring transactions, alerts, CSV/PDF export | Live in production · 34-test pytest suite · auto-deploy | Flask · PostgreSQL · MySQL | [▶ Demo](https://kharcha-khabhar-k2.onrender.com) · [Code](https://github.com/Arya13819/Kharcha-Khabhar-K2) |
+| 🏏 **IPL Data Science** | 816 matches (2008–2020): EDA, hypothesis testing, SQL, match-winner model | Leakage-audited ML · chronological holdout · 22 charts | Pandas · scikit-learn · SQLite | [Code](https://github.com/Arya13819/ipl-data-analysis) |
 
-A Flask app that checks employees in automatically from a webcam. It uses dlib's 128-d face embeddings with vectorised matching, handles several faces in one frame, and records attendance in the company's timezone with late-arrival rules. It also includes leave management and PDF/Excel reports.
-**Try it yourself:** open the demo, enroll your own face and watch it recognise you live. The demo is read-only, so nothing is saved.
-`Python` `Flask` `SQLAlchemy` `face_recognition / dlib` `pytest` `GitHub Actions` `Render`
-
-### 💰 [K2: Kharcha Khabar](https://github.com/Arya13819/Kharcha-Khabhar-K2)
-[![Live demo](https://img.shields.io/badge/▶%20Live%20demo-kharcha--khabhar--k2-38a169?style=flat-square)](https://kharcha-khabhar-k2.onrender.com)
-
-A full-stack personal finance app with bcrypt auth, recurring transactions, monthly budget alerts, searchable history, CSV/PDF export and dark mode. It runs on **PostgreSQL in production and MySQL locally**, with a **34-test pytest suite** and auto-deploy from GitHub to Render.
-`Python` `Flask` `PostgreSQL` `MySQL` `pytest`
-
-### 🏏 [IPL Data Science & Analytics (2008 – 2020)](https://github.com/Arya13819/ipl-data-analysis)
-An end-to-end data science pipeline on **816 IPL matches**: cleaning, EDA, hypothesis testing (does winning the toss help? *No*, p = 0.40), SQL analysis, and a **leakage-audited** match-winner model evaluated on a chronological holdout. It has a modular `src/` package, tests and 22 generated charts.
-`Pandas` `NumPy` `Matplotlib` `scikit-learn` `SQLite` `Jupyter`
+[![AttendanceAI tests](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml/badge.svg)](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml)
 
 ---
 
