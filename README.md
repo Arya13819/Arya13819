@@ -18,21 +18,23 @@
 
 | Project | What it does | Highlights | Stack | Links |
 |---|---|---|---|---|
-| 👁️ **AttendanceAI** | Face recognition attendance system: webcam check-in, multi-face matching, late rules, leave management, PDF/Excel reports | Enroll your own face in the live demo · automated tests + CI | Flask · dlib · SQLAlchemy · pytest | [▶ Demo](https://face-recognition-system-0z08.onrender.com/demo) · [Code](https://github.com/Arya13819/face-recognition-system) |
-| 💰 **K2: Kharcha Khabar** | Personal finance app: budgets, recurring transactions, alerts, CSV/PDF export | Live in production · 34-test pytest suite · auto-deploy | Flask · PostgreSQL · MySQL | [▶ Demo](https://kharcha-khabhar-k2.onrender.com) · [Code](https://github.com/Arya13819/Kharcha-Khabhar-K2) |
+| 👁️ **AttendanceAI** | Webcam-based attendance with multi-face recognition & reports | Enroll your own face in the live demo · automated tests + CI | Flask · dlib · SQLAlchemy · pytest | [Demo](https://face-recognition-system-0z08.onrender.com/demo)<br>[Code](https://github.com/Arya13819/face-recognition-system) |
+| 💰 **K2: Kharcha Khabar** | Personal finance app: budgets, recurring transactions, alerts, CSV/PDF export | Live in production · 34-test pytest suite · auto-deploy | Flask · PostgreSQL · MySQL | [Demo](https://kharcha-khabhar-k2.onrender.com)<br>[Code](https://github.com/Arya13819/Kharcha-Khabhar-K2) |
 | 🏏 **IPL Data Science** | 816 matches (2008–2020): EDA, hypothesis testing, SQL, match-winner model | Leakage-audited ML · chronological holdout · 22 charts | Pandas · scikit-learn · SQLite | [Code](https://github.com/Arya13819/ipl-data-analysis) |
 
-[![AttendanceAI tests](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml/badge.svg)](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml)
+**AttendanceAI CI:** [![AttendanceAI tests](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml/badge.svg)](https://github.com/Arya13819/face-recognition-system/actions/workflows/tests.yml)
 
 ---
 
 ## 🛠 Tech stack
 
-**Languages:** Python · SQL · JavaScript · Shell · HTML/CSS
-**ERP & Backend:** ERPNext · Frappe · Flask · REST APIs · MariaDB · MySQL · PostgreSQL
-**Data & ML:** Pandas · NumPy · Matplotlib · OpenCV · Dlib
-**Testing & DevOps:** pytest · GitHub Actions · Git/GitHub · Linux · Render
-**Tools:** VS Code · DBeaver · Postman
+| | |
+|---|---|
+| **Languages** | Python · SQL · JavaScript · Shell · HTML/CSS |
+| **ERP & Backend** | ERPNext · Frappe · Flask · REST APIs · MariaDB · MySQL · PostgreSQL |
+| **Data & ML** | Pandas · NumPy · Matplotlib · OpenCV · Dlib |
+| **Testing & DevOps** | pytest · GitHub Actions · Git/GitHub · Linux · Render |
+| **Tools** | VS Code · DBeaver · Postman |
 
 ---
 
